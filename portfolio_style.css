@@ -42,9 +42,7 @@
         #divdescricao  {
             margin-left: 20%;
        }
-div {
-    border: 2px solid green;
-}
+
 ul li:nth-child(odd) {
     background-color: aquamarine;
 }
