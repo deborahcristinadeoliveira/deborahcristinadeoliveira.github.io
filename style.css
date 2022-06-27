@@ -1,0 +1,109 @@
+body {
+background-color: rgb(253, 251, 251);}
+#cabecalho { top: 0;
+position: fixed;}
+#titulo2{
+font-family: 'Bebas Neue', cursive;
+background-color: rgba(0, 0, 0, 0.527);
+width: 100%;
+display: inline-block;
+margin-left: 0;
+margin-top: 15%;
+color: white;
+font-size: 70px;
+z-index: 0;}
+.papeldeparede{
+background-blend-mode: darken;
+filter: contrast(30%);
+display: block;
+height: 500px;
+width: 100%;
+object-fit:cover;
+object-position: 20% 0%;
+position: absolute;
+z-index: -1;}
+#minha_foto {
+display: inline-block;
+width: 250px;
+margin-left: 80.5%;
+border: 2px solid rgb(100, 23, 23);
+border-radius: 50%;
+height: 250px;
+z-index: 2;
+position: absolute;
+top: 120px;}
+#dash{
+font-family: 'Overlock', cursive;
+border-bottom: 1px solid white;
+margin-left: 10%;
+margin-right: 10%;
+font-size: 30px;}
+.ladinho{
+top: 400px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 15px;
+display: inline-block;
+color: aliceblue;
+margin-left: 76%;
+text-align: center;
+height: 100%;
+z-index: 2;
+position: absolute;
+line-height: 2;}
+#canto{
+display: inline-block;
+position: absolute;
+margin-left: 74.6%;
+top: 8px;
+z-index: 1;
+width: 440px;
+height: 1250px;}
+.descricao {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 20px;
+display: inline;
+position: absolute;
+top: 550px;
+margin-left: 2%;
+text-align: justify;
+margin-right: 30%;}
+#aprender {
+color: rgb(0, 95, 0);
+font-family:'Bebas Neue', cursive;}
+#faixa{
+background-color: green;
+border-left: 5px solid green;
+border-right: 5px solid green;
+color: white;}
+#licoes_aprendidas {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+position: absolute;
+top: 980px;
+margin-left: 2%;}
+#licoes_a_aprender{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+position: absolute;
+top: 980px;
+margin-left: 30%;}
+#kedin{
+position: absolute;
+height: 80px;
+width: 80px;
+top: 1100px;
+z-index: 2;
+margin-left: 80%;}
+#art{
+position: absolute;
+height: 80px;
+width: 80px;
+top: 1100px;
+z-index: 2;
+margin-left: 90%;}
+table, th td{
+font-family:'Comfortaa',cursive;
+position: absolute;
+top: 950px;
+border: 1px solid;
+margin-left: 3%;
+width: 900px;
+font-size: 18px;}

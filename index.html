@@ -1,64 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>HTML</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+</head>
+<body>
+<header id="cabecalho" > 
+    <h1 id="titulo"> <!---->> </h1> 
+</header>
+<img class="papeldeparede" src="papel_de_parede.jpg" alt="foto de codigos" > 
+<h1 id="titulo2"> &ensp; &ensp;&ensp; Lições aprendidas - Trybe! </h1> 
+<div> 
+<img id="minha_foto" src ="minha_foto.png" alt="Foto Deborah Cistina" >
+</div>
+<img id="canto" src="quadrado.png" alt="quadrado">
+<aside class="ladinho">
+    <p id="dash"> Deborah Cristina</p>
+    <p> Designer e ilustradora, combina sua graduação em designer gráfico com seu curso de concept art, para
+        buscar agregar junto ao HTML e CSS. Compartilho com vocês tudo que aprendi com a Trybe.</p>
+</aside>
+<article class="descricao">
+    <h2 id="aprender"> Meu aprendizado na <strong id="faixa"> Trybe </strong> </h2>
+    <h3 >Venha saber como esta sendo meu dia - a - dia como uma <em>'Triber'</em>. </h3>
+<p> A Trybe é tão segura do seu método que repassa para nós a mesma segurança. Toda duvida que tive até o presente dia,
+    eu consigo sanar com os professores ou os mentores, que são altamente capacitados em dar aquele "help" para os novatos.
+    Sigo firme e forte na caminha de futura DEV e preparada para os desafios que vem pela frente, pois sei que a Trybe irá me
+    apoiar no que for necessário. Muito bom estudar num ambiente onde tem com quem contar.
+    </p>
 
-    <link rel="stylesheet" href="portfolio_style.css">
-  </head>
-  <body>
-    <div> 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <h1 class = "meunome"> Deborah Cristina Pinheiro de Oliveira </h1>
-    <p> </p>
-    <p> </p>
-        <div class="imagem">
-    <img id = "minhafoto" src="3x4_2.png" alt="foto da déborah Cristina" width="200px">
-      
-    <p> </p>
-    <p> </p>
-        <p class="descricao"> Sou a Deborah Cristina, natural de São Paulo - Capital, tenho 5 anos de experiência com produto de consórcio no Banco Pan.
-        Atualmente trabalho como freelancer sendo ilustradora e concept art. Formada pela EBAC e escola Revolution.
-        Iniciei os estudos na Trybe. Estudando desenvolvimento Web full-stack, Javascript,react, Node,MySQL,CSS,HTML, Docker, Typescript, MongoDB e Python
-        </div>
-    </div>    
-        <p class="tempolivre"> 
+</article>
+<table>
+    <tr>
+        <td><b> Tópicos aprendidos </b></td>
+        <td><b> Tópicos futuros </b></td>
+<ol id="licoes_aprendidas">
+    <li> Unix & Bash </li>
+    <li> Unix & Shell </li>
+    <li> Fundamentos do Desenvolvimento Web </li>
+    <li> Git </li>
+    <li> GitHub </li>
+    <li> HTML </li>
+    <li> CSS </li>
+    <li> Soft Skills </li>
+    <li> Empatia </li>
+    <li> Slack </li>
+</ol>
+<ul id="licoes_a_aprender">
+    <li> JavaScript </li>
+    <li> Python </li>
+    <li> DOM </li>
+    <li> CSS Responsive </li>
+    <li> ES6 </li>
+    <li> React </li>
+    <li> Redux </li>
+    <li> Node </li>
+    <li> SQL </li>
+    <li> Unit Test </li>
+</ul>
 
-  </head>
-  <body>
-
-        <em>Tempo livre gosto de praticar muay thai, desenhar e passear pela cidade de São Paulo.
- 
-    
-            <em>Tempo livre gosto de praticar muay thai, desenhar e passear pela cidade de São Paulo.
-
-        Considero-me criativa, inovadora, responsável e pró ativa. </em></p> 
-        <h3> HABILIDADES</h3>
-        <ul> 
-
-        <li class="photoshop"> Pacote Adobe </li>
-        <li> Motion design </li>
-        <li class="ilustracao"> Ilustração </li>
-        <li class="concept"> Concept art </li>
-
-        <li> Pacote Adobe </li>
-        <li> Motion design </li>
-        <li> Ilustração </li>
-        <li> Concept art </li>
-
-    </ul>
-    Blog:     <a href="https://www.youtube.com/c/TemperoDrag?app=desktop" target="_blank" > Tempero Drag </a>
-    <h3> Redes sociais </h3>
-    <li> <a href="https://cristinasoile.artstation.com/" target="_blank" > Artstation </a>  </li>
-    <li> <a href="https://www.behance.net/cristinasoile" target="_blank" > Behance </a>  </li>
-    <li> <a href="www.linkedin.com/in/deborah-cristina-91453075" target="_blank" > Linkedin </a> </li>
-    <li> <a href="https://github.com/deborahcristinadeoliveira" target="_blank" > GitHub </a>  </li>
-<iframe src="https://giphy.com/embed/HWLa2UnmEsc2qpYu8f" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/art-painting-loof-and-timmy-HWLa2UnmEsc2qpYu8f">via GIPHY</a></p>
-  </body>
-
+<footer id="rodape">
+<a href="www.linkedin.com/in/deborah-cristina-91453075" target="_blank"> <img  id="kedin"src="icone_linkedin.png" alt="logo linkedin"> </a>
+<a href="https://cristinasoile.artstation.com/" target="_blank"> <img id="art" src="artstation.png" alt="logo artstation"> </a>
+</footer>
+</body>
 </html>
-
-</html>
-
